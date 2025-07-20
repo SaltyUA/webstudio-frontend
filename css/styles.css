@@ -89,3 +89,36 @@ body {
 .address-link:is(:hover, :focus) {
   color: var(--pressed-state-color);
 }
+
+/* ----------------------------HERO-------------------------------------- */
+
+.hero {
+  background-color: var(--hero-background-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-background-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white-background-color);
+  cursor: pointer;
+  background-color: var(--primary-brand-color);
+}
+
+.hero-btn:is(:hover, :focus) {
+  background: var(--pressed-state-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
