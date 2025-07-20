@@ -217,3 +217,50 @@ body {
   text-transform: uppercase;
   color: var(--light-color);
 }
+
+/* ----------------------------PORTFOLIO-------------------------------------- */
+
+/* ----------------------------FILTERS-------------------------------------- */
+
+.filters-btn {
+  width: 116px;
+  height: 48px;
+  background-color: var(--light-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  cursor: pointer;
+}
+.filters-btn:is(:hover, :focus) {
+  background-color: var(--pressed-state-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--white-background-color);
+}
+
+/* ----------------------------PROJECTS-------------------------------------- */
+
+.projects-top-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--modal-overlay-color);
+}
+
+.projects-bottom-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
